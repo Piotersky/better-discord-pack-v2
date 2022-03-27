@@ -1,0 +1,594 @@
+/**
+ * @name Addons for the pack
+ * @version 1.4.2
+ * @description Addons for the pack :)
+ * @author Piotersky#3873
+ * @website 
+*/
+
+@import url('https://codedotspectra.github.io/themes/core/settings-icons.css');
+
+@import url('https://github.com/DiscordStyles/Fluent/blob/main/src/app/_icons.scss');
+
+:root {
+    --themeColor1: #DC4826FF;
+    --themeColor2: #DC4826FF;
+    --customFont: 'Open Sans';
+    --homeImage: url('https://i.imgur.com/IFzQQtX.jpg');
+    --homeImageSize: cover;
+    --backgroundColor: #0d0d0d;
+    --backgroundImage: url('https://i.imgur.com/IzXQA4N.jpg');
+    --backgroundPosition: center;
+    --backgroundSize: cover;
+    --backgroundRepeat: no-repeat;
+    --backgroundBlur: 0px;
+    --backgroundOpacity: 0.35;
+    --cursor: crosshair;
+}
+
+
+
+body {
+    cursor: var(--cursor);
+}
+
+/* Lepsze css-snippets */
+.chatContent-3KubbW[aria-label^=css-snippets] .divider-IqmEqJ {
+    display: none
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .scrollerInner-2PPAp2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(328px, 328px));
+    column-width: 328px !important;
+    grid-gap: 16px;
+    padding-left: 16px
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .messageListItem-ZZ7v6g {
+    background: var(--background-secondary-alt);
+    border-radius: 8px;
+    max-width: 328px;
+    min-height: 375px;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transition: box-shadow .2s ease-out, transform .2s ease-out, background .2s ease-out, -webkit-box-shadow .2s ease-out, -webkit-transform .2s ease-out
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .messageListItem-ZZ7v6g:focus,
+.chatContent-3KubbW[aria-label^=css-snippets] .messageListItem-ZZ7v6g:hover {
+    background: var(--background-tertiary);
+    transform: translateY(-1px);
+    -webkit-transform: translateY(-1px);
+    box-shadow: var(--elevation-high);
+    -webkit-box-shadow: var(--elevation-high)
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .messagesWrapper-RpOMA3 .wrapper-30-Nkg {
+    border-radius: 8px;
+    padding: 0 !important;
+    margin-top: 0 !important
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .groupStart-3Mlgv1::after,
+.chatContent-3KubbW[aria-label^=css-snippets] .imageDetails-1t6Zms,
+.chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3::before {
+    display: none
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .container-2sjPya>* {
+    align-self: center;
+    margin: 0 auto
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .imageWrapper-oMkQl4[style*="height: 300px;"] {
+    transform: translateY(-60px) scale(.6)
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .embedWrapper-1MtIDg {
+    height: auto !important;
+    width: unset !important
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .imageWrapper-oMkQl4 img {
+    position: relative;
+    height: auto !important;
+    width: unset !important;
+    max-width: 100%
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3 {
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri {
+    color: var(--header-secondary);
+    font-size: 14px;
+    width: calc(328px - 32px);
+    padding-left: 0 !important;
+    margin-left: 0 !important
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri code:active>* {
+    display: block
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri>strong:first-child {
+    color: var(--header-primary);
+    font-weight: 600;
+    font-size: 16px
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri>strong:first-child>u {
+    text-decoration: none
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri>.inline:first-child {
+    color: var(--header-primary) !important;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: var(--font-primary);
+    margin: 0;
+    padding: 0;
+    background: 0 0
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre {
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100%;
+    background: 0 0;
+    border: none
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .hljs {
+    padding: 2px .5em .5em .5em !important
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre::after {
+    position: absolute;
+    height: 24px;
+    width: 59px;
+    content: 'Select';
+    margin-top: 9px;
+    right: -4px;
+    font-size: 14px;
+    pointer-events: none;
+    font-weight: 600;
+    font-family: var(--font-primary);
+    color: var(--interactive-normal)
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre code {
+    height: 24px;
+    width: 59px;
+    font-size: 12px;
+    -webkit-user-select: all;
+    user-select: all;
+    cursor: pointer
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre code .bd-codeblock-language,
+.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre code::-webkit-scrollbar {
+    display: none
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre code>* {
+    opacity: 0
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre code:active>* {
+    opacity: 1
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .markup-eYLPri pre code:active {
+    max-height: 332px;
+    height: fit-content;
+    width: 280px;
+    font-size: 12px;
+    opacity: 1
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .container-2sjPya {
+    order: -1 !important;
+    width: 328px;
+    height: 180px;
+    overflow: hidden;
+    margin-bottom: 32px;
+    padding: 0 !important;
+    position: absolute
+}
+
+#app-mount .chatContent-3KubbW[aria-label^=css-snippets] .messageListItem-ZZ7v6g .avatar-2e8lTP {
+    transform: translateY(-55px) !important;
+    top: unset !important;
+    left: unset !important;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 12px;
+    box-shadow: 0 0 0 4px var(--background-secondary-alt)
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .messageListItem-ZZ7v6g:focus .avatar-2e8lTP,
+.chatContent-3KubbW[aria-label^=css-snippets] .messageListItem-ZZ7v6g:hover .avatar-2e8lTP {
+    box-shadow: 0 0 0 4px var(--background-tertiary)
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .header-2jRmjb::after {
+    display: none
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .header-2jRmjb {
+    z-index: 0;
+    position: absolute;
+    bottom: 16px;
+    left: 12px
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .timestampInline-_lS3aK {
+    margin-left: .25rem !important
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .headerText-2z4IhQ {
+    display: none
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .altText-sAs-Ao {
+    position: fixed;
+    top: 0;
+    right: 16px
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .messageContent-2t3eCI>.timestamp-p1Df1m {
+    position: fixed;
+    bottom: 4px;
+    left: 16px
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .contents-2MsGLg {
+    width: 100%;
+    padding: calc(180px + 27px) 16px 32px !important;
+    overflow: hidden;
+    background: 0 0
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .contents-2MsGLg::after {
+    display: block;
+    position: absolute;
+    content: '';
+    z-index: -1;
+    height: 180px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    border-radius: 8px 8px 0 0;
+    background: url(https://betterdiscord.app/resources/ui/content_thumbnail.svg) no-repeat center/40%, var(--background-tertiary)
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3.selected-2LX7Jy,
+.chatContent-3KubbW[aria-label^=css-snippets] .message-2CShn3:hover {
+    background: 0 0 !important
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .embed-hKpSrO img,
+.chatContent-3KubbW[aria-label^=css-snippets] .embed-hKpSrO video,
+.chatContent-3KubbW[aria-label^=css-snippets] .embedMedia-1mdWSP {
+    display: block;
+    border-radius: 8px 8px 0 0
+}
+
+.chatContent-3KubbW[aria-label^=css-snippets] .repliedMessage-3Z6XBG {
+    position: absolute;
+    left: 53px;
+    top: -20px;
+    width: 270px
+}
+
+
+
+/* Reklama na górnym pasku */
+.typeWindows-2-g3UY>.wordmark-2u86JB:before {
+    content: "";
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    text-shadow: 0 0 3px #000;
+}
+
+.typeWindows-2-g3UY>.wordmark-2u86JB:after {
+    content: "";
+    color: rgba(255, 255, 255, 0.5);
+    font-family: var(--code-font);
+    font-size: 12px;
+}
+
+#app-mount>div.typeWindows-2-g3UY.withFrame-2dL45i.titleBar-1it3bQ.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr>div.wordmarkWindows-2dq6rw.wordmark-2u86JB::after {
+    content: "Paczka By PioterSky  2.1.0";
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Amiko !important;
+    font-weight: 1000;
+    font-size: 14px;
+}
+
+
+/* Usunięcie drugiego X */
+#app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.sidebar-1tnWFu>nav>div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN>ul>li>div>div>svg {
+    display: none;
+}
+
+#app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>div>nav>div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN>ul>li>div>div>div>svg {
+    display: none;
+}
+
+/* ikony w ustawieniach */
+#app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div:nth-child(2)>div>div.sidebarRegion-1VBisG>div>nav>div>div.bd-emotes-tab.item-3XjbnG.themed-2-lozF:before {
+    content: url(https://img.icons8.com/material/24/ffffff/happy--v1.png);
+}
+
+#app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div:nth-child(2)>div>div.sidebarRegion-1VBisG>div>nav>div>div.bd-settings-tab.item-3XjbnG.themed-2-lozF::before {
+    content: url(https://clearvision.gitlab.io/icons/settings.svg);
+}
+
+
+#app-mount>div.app-1q1i1E>div>div.layers-3iHuyZ.layers-3q14ss>div:nth-child(2)>div>div.sidebarRegion-VFTUkN>div>nav>div>div.bd-emotes-tab.item-PXvHYJ.themed-OHr7kt:before {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    content: "♥";
+}
+
+#app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div:nth-child(2)>div>div.sidebarRegion-1VBisG>div>nav>div>div:nth-child(9)>div.premiumLabel-3HPvdB>svg {
+    display: none;
+}
+
+#app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div:nth-child(2)>div>div.sidebarRegion-1VBisG>div>nav>div>div.bd-sidebar-header>div.bd-changelog-button>svg {
+    display: none;
+}
+
+/* Okrągłe menu wiadomości */
+.menu-1QACrS,
+.colorDefault-CDqZdO {
+    border-radius: 15px;
+}
+
+/* Lista serwerów bo wyglądała tak: 🤢 */
+
+#bd-pub-button:hover {
+    background-color: var(--themeColor1) !important;
+    color: #ffffff !important;
+}
+
+#bd-pub-button {
+    color: var(--themeColor1) !important;
+    background-color: black;
+}
+
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > nav > ul > div.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt > div.listItem-3SmSlK.serverCountWrap-k8F5De > div {
+    font-size: 8px;
+    width: 100px !important;
+}
+
+.scroller-3X7KbA {
+    contain: unset;
+    padding-bottom: 190px;
+}
+
+.tutorialContainer-2jwoiB {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+.tutorialContainer-2jwoiB+.listItem-3SmSlK {
+    position: fixed;
+    bottom: 58px;
+    contain: none;
+    z-index: 1;
+}
+
+#app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div.container-1eFtFS>nav>ul>div.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt>div:nth-child(8)>div.listItemWrapper-3d87LP>div>svg>foreignObject>div {
+    color: var(--themeColor1) !important;
+    background-color: black;
+}
+
+#app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div.container-1eFtFS>nav>ul>div.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt>div.tutorialContainer-2jwoiB>div.listItem-3SmSlK>div>div>svg>foreignObject>div {
+    color: var(--themeColor1) !important;
+    background-color: black;
+}
+
+#app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>nav>ul>div.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt>div:nth-child(8)>div.listItemWrapper-3d87LP>div>svg>foreignObject>div:hover {
+    background-color: var(--themeColor1) !important;
+    color: #ffffff !important;
+}
+
+#app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>nav>ul>div.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt>div.tutorialContainer-2jwoiB>div.listItem-3SmSlK>div>div>svg>foreignObject>div:hover {
+    background-color: var(--themeColor1) !important;
+    color: #ffffff !important;
+}
+
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > nav > ul > div.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt > div:nth-child(9) > div.listItemWrapper-3d87LP > div > svg > foreignObject > div {
+    color: var(--themeColor1) !important;
+    background-color: black;
+}
+
+#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > nav > ul > div.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt > div:nth-child(9) > div.listItemWrapper-3d87LP > div > svg > foreignObject > div:hover {
+    color: var(--themeColor1) !important;
+    background-color: black;
+}
+
+#app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>nav>ul>div.unreadMentionsIndicatorBottom-3RJMnQ>div {
+    position: relative;
+    right: 100px;
+}
+
+/* Server dm's 🤢 */
+
+#app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div>div>div>div.chat-2ZfjoI>div.content-1jQy2l>div>div.header-2Kx1US.ChannelDms-channelmembers-header.topPill-3DJJNV {
+    background: none;
+}
+
+#popout_7784>div>div>div.ChannelDms-channelpopout-content>section>div.messagesWrapper-RpOMA3.group-spacing-16>div {
+    background: none;
+}
+
+#popout_1648 > div > div > div.ChannelDms-channelpopout-content > section > div.messagesWrapper-RpOMA3.group-spacing-16 > div {
+
+}
+
+/* Resizable */
+.ChannelDms-channelpopout-popout {
+    color: var(--header-primary) !important;
+    border-radius: 8px;
+    resize: horizontal;
+    overflow: hidden;
+    direction: rtl
+}
+
+.ChannelDms-channelpopout-popout.ChannelDms-channelpopout-collapsed {
+    width: 100px !important
+}
+
+.ChannelDms-channelpopout-channelIcon,
+.ChannelDms-channelpopout-headerStatus {
+    margin: 0 8px !important
+}
+
+.ChannelDms-channelpopout-headerName {
+    font-size: 16px !important;
+    font-family: var(--font-display)
+}
+
+.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg,
+.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg>.grid-1aWVsE>.imageWrapper-oMkQl4,
+.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg>.imageWrapper-oMkQl4 {
+    height: auto !important;
+    width: unset !important
+}
+
+.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg>.grid-1aWVsE>.imageWrapper-oMkQl4 img,
+.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg>.imageWrapper-oMkQl4 img,
+.ChannelDms-channelpopout-popout .embedWrapper-1MtIDg>img:not(.embedGalleryImageElement-2VNYIN) {
+    position: relative;
+    height: auto !important;
+    width: unset !important;
+    max-width: 100%
+}
+
+.ChannelDms-channelpopout-collapseButton {
+    left: 10px !important;
+    top: 2px !important;
+    opacity: 0
+}
+
+.ChannelDms-channelpopout-collapseButton:hover,
+.ChannelDms-channelpopout-popout.ChannelDms-channelpopout-collapsed .ChannelDms-channelpopout-collapseButton {
+    opacity: 1
+}
+
+.ChannelDms-channelpopout-popout>* {
+    direction: ltr
+}
+
+.ChannelDms-channelpopout-removeButton {
+    top: 0 !important;
+    right: 0 !important;
+    opacity: 0
+}
+
+.ChannelDms-channelpopout-popout .button-1yVL_7 {
+    border-radius: 0;
+    width: 100%;
+    height: 36px
+}
+
+/* Odpisywanie */
+
+#app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div.container-1eFtFS>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.attachedBars-2BCP3l>div {
+    background-color: #000;
+}
+
+#app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div.container-1eFtFS>div>div>div.chat-2ZfjoI>div.content-1jQy2l>main>form>div>div>div>div.attachedBars-2BCP3l>div>div>div>div {
+    background-color: #000
+}
+
+
+#app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div>div.container-1eFtFS>nav>ul>div.scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt>div.listItem-3SmSlK.serverCountWrap-k8F5De>div:hover {
+    cursor: pointer;
+}
+
+/* Reklama w ustawieniach */
+#app-mount>div.app-3xd6d0>div>div.layers-OrUESM.layers-1YQhyW>div:nth-child(2)>div>div.sidebarRegion-1VBisG>div>nav>div>div.info-3pQQBb>span:nth-child(4)::after {
+    display: inline-flex;
+    content: "Paczka by PioterSky 1.4.2";
+}
+
+
+/* Przydatne ikony */
+/* inne 
+		https://clearvision.gitlab.io/icons/notifications.svg
+		https://clearvision.gitlab.io/icons/sync.svg
+		https://clearvision.gitlab.io/icons/discord.svg
+		https://clearvision.gitlab.io/icons/group_add.svg
+		https://clearvision.gitlab.io/icons/pin.svg
+		https://clearvision.gitlab.io/icons/help.svg
+		https://clearvision.gitlab.io/icons/videocam.svg
+		https://clearvision.gitlab.io/icons/notifications_off.svg
+		https://clearvision.gitlab.io/icons/people.svg
+		https://clearvision.gitlab.io/icons/mail.svg
+		https://clearvision.gitlab.io/icons/close.svg
+		https://clearvision.gitlab.io/icons/settings.svg
+		https://clearvision.gitlab.io/icons/person_add.svg
+		https://clearvision.gitlab.io/icons/close.svg
+	/* pliki
+		https://clearvision.gitlab.io/icons/cloud_download.svg
+		https://clearvision.gitlab.io/icons/share.svg
+		https://clearvision.gitlab.io/icons/file.svg
+		https://clearvision.gitlab.io/icons/file_upload.svg
+		https://clearvision.gitlab.io/icons/file_document.svg
+		https://clearvision.gitlab.io/icons/file_archive.svg
+		https://clearvision.gitlab.io/icons/file_code.svg
+		https://clearvision.gitlab.io/icons/file_webcode.svg
+		https://clearvision.gitlab.io/icons/file_image.svg
+		https://clearvision.gitlab.io/icons/file_video.svg
+		https://clearvision.gitlab.io/icons/file_table.svg
+		https://clearvision.gitlab.io/icons/file_pdf.svg
+		https://clearvision.gitlab.io/icons/file_music.svg
+		  transform: rotateY(180deg) rotateZ(-90deg) translateY(3px)
+		  -webkit-animation: cv-spin 3s ease-in-out infinite;
+          animation: cv-spin 3s ease-in-out infinite; 
+		  transition: all 0.3s ease-in-out;
+	
+ /*  OLD CATEGORIES
+ %emojiPickerCategoriesItemPeople {
+   background-image: url(https://clearvision.gitlab.io/icons/discord/emojiSmileys.svg);
+ }
+ %emojiPickerCategoriesItemNature {
+   background-image: url(https://clearvision.gitlab.io/icons/discord/emojiNature.svg);
+ }
+ %emojiPickerCategoriesItemFood {
+   background-image: url(https://clearvision.gitlab.io/icons/discord/emojiFood.svg);
+ }
+ %emojiPickerCategoriesItemActivity {
+   background-image: url(https://clearvision.gitlab.io/icons/discord/emojiActivity.svg);
+ }
+ %emojiPickerCategoriesItemTravel {
+   background-image: url(https://clearvision.gitlab.io/icons/discord/emojiTravel.svg);
+ }
+ %emojiPickerCategoriesItemObjects {
+   background-image: url(https://clearvision.gitlab.io/icons/discord/emojiObject.svg);
+ }
+ %emojiPickerCategoriesItemSymbols {
+   background-image: url(https://clearvision.gitlab.io/icons/discord/emojiSymbol.svg);
+ }
+ %emojiPickerCategoriesItemFlags {
+   background-image: url(https://clearvision.gitlab.io/icons/discord/emojiFlags.svg);
+ }   
+ %emojiPickerCategoriesItemCustom {
+   background-image: url(https://clearvision.gitlab.io/icons/discord/emojiCustom.svg);
+ }
+ */

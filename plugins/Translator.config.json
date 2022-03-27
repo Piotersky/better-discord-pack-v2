@@ -1,0 +1,35 @@
+{
+	"authKeys": {
+		"deepl": {
+			"paid": false
+		}
+	},
+	"choices": {
+		"received": {
+			"input": "auto",
+			"output": "pl"
+		},
+		"sent": {
+			"input": "auto",
+			"output": "pl"
+		}
+	},
+	"engines": {
+		"backup": "itranslate",
+		"translator": "googleapi"
+	},
+	"exceptions": {
+		"wordStart": [
+			"!"
+		]
+	},
+	"favorites": [
+		"pl"
+	],
+	"general": {
+		"addTranslateButton": true,
+		"sendOriginalMessage": true,
+		"showOriginalMessage": true,
+		"usePerChatTranslation": true
+	}
+}

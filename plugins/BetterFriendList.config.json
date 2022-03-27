@@ -1,0 +1,12 @@
+{
+	"favorizedFriends": [],
+	"general": {
+		"addTotalAmount": false,
+		"addFavorizedCategory": true,
+		"addHiddenCategory": true,
+		"addSortOptions": true,
+		"addSearchbar": true,
+		"addMutualGuild": true
+	},
+	"hiddenFriends": []
+}

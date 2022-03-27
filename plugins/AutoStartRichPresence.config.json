@@ -1,0 +1,27 @@
+{
+    "settings": {
+        "lastChangelogVersionSeen": "2.0.5",
+        "rpcEventInjection": true,
+        "activeProfileID": 0
+    },
+    "profiles": [
+        {
+            "name": "New Profile",
+            "clientID": "935192107692490772",
+            "details": "Darmowa wersja paczki",
+            "state": "Korzysta z paczki better discord by PioterSky",
+            "largeImageKey": "better_dc",
+            "enableStartTime": false,
+            "largeImageText": "Better Discord",
+            "smallImageKey": "",
+            "smallImageText": "",
+            "button1Label": "POBIERZ PACZKĘ!",
+            "button1URL": "https://github.com/Piotersky/my-own-better-discord-pack",
+            "button2Label": "",
+            "button2URL": ""
+        },
+        {
+            "name": "New Profile"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "currentVersionInfo": {
+        "version": "2.2.16",
+        "hasShownChangelog": true
+    },
+    "settings": {
+        "blacklist": [
+            "835937579844501554",
+            "929387000551858186"
+        ],
+        "online": true,
+        "displayType": 1,
+        "marginSpacing": 1
+    }
+}

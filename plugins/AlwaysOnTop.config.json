@@ -1,0 +1,12 @@
+{
+    "state": false,
+    "keybind": {
+        "location": 0,
+        "key": "F5",
+        "ctrl": true,
+        "alt": false,
+        "shift": false,
+        "meta": false,
+        "keyName": "F5"
+    }
+}

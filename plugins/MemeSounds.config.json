@@ -1,0 +1,13 @@
+{
+    "currentVersionInfo": {
+        "version": "0.5.9",
+        "hasShownChangelog": true
+    },
+    "settings": {
+        "setting": {
+            "LimitChan": true,
+            "delay": 10,
+            "volume": 0.1951798561151086
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "currentVersionInfo": {
+        "version": "0.3.0",
+        "hasShownChangelog": true
+    },
+    "settings": {
+        "afkStatus": "idle",
+        "afkTimeout": 5,
+        "backToOnlineDelay": 5,
+        "alwaysOnline": true,
+        "showToasts": true
+    }
+}

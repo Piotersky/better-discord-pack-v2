@@ -1,0 +1,423 @@
+{
+    "settings": {
+        "plugins": {
+            "ActivityIcons": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "AlwaysOnTop": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "Animations": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "AutoIdleOnAFK": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "AutoStartRichPresence": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "AvatarsEverywhere": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "BDFDB": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "BetterAnimations": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "BetterBotTags": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "BetterFormattingRedux": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "BetterFriendList": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "BetterInvites": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "BetterMessageLinks": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "BetterNsfwTag": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "BetterRoleColors": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "BetterVolume": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "BiggerStreamPreview": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "CallTimeCounter": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "ChannelDms": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "CharCounter": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "CompleteTimestamps": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "CopyRawMessage": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "CreationDate": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "DiscordEmojiParty": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "DoubleClickVoiceChannels": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "FileViewer": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "FriendNotifications": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "Google Fonts": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "GuildProfile": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "HideEmbedLink": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "HideIconBadge": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "InMyVoice": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "InvisibleTyping": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "KeyboardClick": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "MemberCount": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "MemeSounds": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "NotificationPrompter": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "PlatformIndicators": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "ProProfile": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "ReadAllNotificationsButton": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "RemoveBlockedUsers": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "RoleMentionIcons": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "ServerConfig": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "ServerCounter": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "ServerDetails": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "ShowAllActivities": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "ShowHiddenChannels": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "StickerSnatcher": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "Toggle-Your-Stuff": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "Translator": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "UserVolumeBooster": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "ZeresPluginLibrary": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            }
+        },
+        "themes": {
+            "RadialStatus": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "Modern Channel Indicators": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "Friends-Grid": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "Clear-Vsion": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "BetterButtons": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "Better Badges": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            },
+            "Addons for the pack": {
+                "hotkey": "KeyS",
+                "ctrl": false,
+                "shift": false,
+                "alt": true,
+                "keycode": 83
+            }
+        },
+        "cancelDefault": false,
+        "_note": "The plugin uses the keycodes for detecting a match. The hotkeys are for display in settings only."
+    }
+}

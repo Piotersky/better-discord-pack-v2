@@ -1,0 +1,27 @@
+{
+	"batch": {
+		"guilds": true,
+		"muted": false,
+		"dms": false
+	},
+	"blacklist": [
+		"826730333134782474",
+		"835937579844501554",
+		"814391228661104680",
+		"843818595540271147",
+		"804770948817223710",
+		"788471111972290561",
+		"800756683776196668"
+	],
+	"general": {
+		"addClearButton": true,
+		"confirmClear": false
+	},
+	"settings": {
+		"addClearButton": true,
+		"confirmClear": false,
+		"includeGuilds": true,
+		"includeMuted": false,
+		"includeDMs": false
+	}
+}
